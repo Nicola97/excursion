@@ -1,21 +1,35 @@
-html
+body
 {
   background-color: black;
-}
-
-h1
-{
   font-family: verdana;
-  font-weight: normal;
-  font-size: 50px;
   color: white;
   text-align: center;
 }
 
-h3
+h1
+{
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2
+{
+  font-weight: 300px;
+  font-size: 42px;
+}
+
+.cta
 {
   color: aquamarine;
   font-size: 16px;
-  text-align: center;
-  
+}
+video
+{
+  object-fit: contain;
+}
+
+.ex
+{
+  font-size: 21px;
+  color:gray;
 }
